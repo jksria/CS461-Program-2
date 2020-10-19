@@ -5,6 +5,7 @@ var AIplayernumber = ("White");
 var player2Color = 'rgb(255, 255, 255)';
 var game_on = true;
 
+//credits for https://github.com/SethPipho/monte-carlo-tree-search-js for a snippet of Monte Carlo Search Tree code.
 while (true){
     let p1_move = humanplayernumber.selectMove()
     game_on.playMove(p1_move)
